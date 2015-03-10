@@ -1,3 +1,4 @@
 class Roommate < ActiveRecord::Base
-  has_many :chores
+  has_many :chore
+  belongs_to :chore
 end
