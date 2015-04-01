@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+roommates = Roommate.create([{ name: 'Josh' }, { name: 'Andrew' }])
+chores = Chore.create([{title: 'Clean the dishes', roommate_id: 1},{title: 'Sweep the floors', roommate_id: 1},{title: 'Take out the garbage', roommate_id: 2}])
