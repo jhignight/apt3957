@@ -1,3 +1,15 @@
 // Place all the styles related to the Chores controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+html {background-color: #d1cdf5
+}
+
+table {padding: 1em;
+      background-color: #E5E4E2
+}
+
+@media screen and (min-width: 5em)
+{
+float: right;
+}
